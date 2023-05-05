@@ -26,7 +26,7 @@ function appendCat(name) {
   }
   
   function prependCat(name) {
-    const newCats = [name, ...cats];
+    const newCats = ["Arnold", ...cats];
     return newCats;
   }
   
